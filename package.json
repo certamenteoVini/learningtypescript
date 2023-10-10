@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "ts-node-dev src/index.ts --respawn --transpileOnly "
   },
   "keywords": [],
-  "author": "",
+  "author": "certamenteoVini <viih.fv76@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.18",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "repository": "https://github.com/certamenteoVini/learningtypescript.git"
 }
